@@ -47,7 +47,7 @@ export class Pokemon {
         <h6>Types: ${this.types}</h6>
       </div>
       <div class="col-12 text-end">
-        <button class="btn btn-outline-danger"><i class="mdi mdi-pokeball text-danger"></i> Catch</button>
+        <button onclick="app.pokedexController.addNewPokemon()" class="btn btn-outline-danger"><i class="mdi mdi-pokeball text-danger"></i> Catch</button>
       </div>
     </div>
   </div>
