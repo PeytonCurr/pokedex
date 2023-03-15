@@ -6,6 +6,12 @@ import { loadState } from "./Utils/Store.js"
 class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = loadState('values', [Value])
+
+  wildPokemon = []
+
+  /** @type {import('./Models/Pokemon').Pokemon|null} */
+  activePokemon = null
+
 }
 
 export const appState = new Proxy(new AppState(), {

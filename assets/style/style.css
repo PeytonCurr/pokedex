@@ -1,1 +1,14 @@
 /* BASIC STYLES HERE */
+main {
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1469813763859859071/827108E63CD126623122FDA805ADECD25766274D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+  background-position: center;
+  background-size: cover;
+}
+
+#activePokemon {
+  height: 95vh;
+}
+
+.act {
+  height: 25vh;
+}
